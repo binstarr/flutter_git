@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:kakao_01/screens/chat_room_screen.dart';
 import 'package:kakao_01/screens/chat_screen.dart';
 import 'package:kakao_01/screens/friend_screen.dart';
 import 'package:kakao_01/screens/more_screen.dart';
@@ -12,7 +13,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 1;
 
   @override
   Widget build(BuildContext context) {

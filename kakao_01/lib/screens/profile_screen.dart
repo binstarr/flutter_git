@@ -65,7 +65,7 @@ class ProfileScreen extends StatelessWidget {
                 fontSize: 20,
               ),
             ),
-            SizedBox(height: 8,),
+            const SizedBox(height: 5,),
             Text(
               user.intro,
               style: TextStyle(
@@ -73,9 +73,8 @@ class ProfileScreen extends StatelessWidget {
               ),
               maxLines: 1,
             ),
-            SizedBox(height: 20,),
-            Divider(color: Colors.white, indent: 30,),
-            Spacer(),
+            const SizedBox(height: 20,),
+            const Divider(color: Colors.white, indent: 30, endIndent: 30,),
             if(user.name == me.name) _buildMyIcons() else  _buildFriendIcons(),
           ],
         ),
