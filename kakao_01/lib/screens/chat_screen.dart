@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kakao_01/components/chat_card.dart';
 import 'package:kakao_01/models/chat.dart';
+import 'package:kakao_01/screens/components/appbar_preferred_size.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({Key? key}) : super(key: key);
